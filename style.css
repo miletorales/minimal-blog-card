@@ -1,0 +1,61 @@
+/* Estilos Generales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sora', sans-serif;
+    height: 100vh;
+}
+
+/* Contenedores */
+.container {
+    width: 70vh;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 7px 9px 30px 2px rgba(196, 195, 195, 0.79);
+}
+
+.imagen {
+    height: 150px;
+    background: url(./img/cactus.jpg) no-repeat center/cover;
+    border-radius: 10px;
+}
+
+.design {
+    color: #883ae1;
+    background-color: #e6d6fc;
+    border-radius: 50px;
+    padding: 8px;
+    margin: 10px 290px 10px 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.info {
+    padding: 10px;
+}
+
+.info h3 {
+    padding-bottom: 8px;
+}
+
+.info p {
+    color: #6c727f;
+}
+
+hr {
+    opacity: 0.3;
+}
+
+.name {
+    padding: 10px;
+    color: #6c727f;
+}
